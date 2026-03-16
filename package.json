@@ -1,0 +1,30 @@
+{
+  "name": "picture_media",
+  "version": "1.0.0",
+  "description": "Posting of the image and viewing them all in media posts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VivPudale/picture_media.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VivPudale/picture_media/issues"
+  },
+  "homepage": "https://github.com/VivPudale/picture_media#readme",
+  "dependencies": {
+    "@imagekit/nodejs": "^7.3.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "imagekit": "^6.0.0",
+    "mongoose": "^9.3.0",
+    "multer": "^2.1.1"
+  }
+}
